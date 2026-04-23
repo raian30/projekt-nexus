@@ -1,0 +1,1412 @@
+{
+  "kandidati": [
+    {
+      "ID_Uzorka": 1,
+      "GPS_LAT": 18.485589,
+      "GPS_LONG": 77.377999,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 13,
+      "GPS_LAT": 18.470461,
+      "GPS_LONG": 77.386091,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 43,
+      "GPS_LAT": 18.484187,
+      "GPS_LONG": 77.387376,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 44,
+      "GPS_LAT": 18.48473,
+      "GPS_LONG": 77.387666,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 51,
+      "GPS_LAT": 18.484142,
+      "GPS_LONG": 77.379256,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 65,
+      "GPS_LAT": 18.485058,
+      "GPS_LONG": 77.387343,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 148,
+      "GPS_LAT": 18.470262,
+      "GPS_LONG": 77.385708,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 153,
+      "GPS_LAT": 18.468153,
+      "GPS_LONG": 77.386757,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 186,
+      "GPS_LAT": 18.469793,
+      "GPS_LONG": 77.384704,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 209,
+      "GPS_LAT": 18.504035,
+      "GPS_LONG": 77.398276,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 213,
+      "GPS_LAT": 18.470135,
+      "GPS_LONG": 77.385295,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 222,
+      "GPS_LAT": 18.484495,
+      "GPS_LONG": 77.380955,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 232,
+      "GPS_LAT": 18.485054,
+      "GPS_LONG": 77.3864,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 288,
+      "GPS_LAT": 18.47014,
+      "GPS_LONG": 77.384998,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 297,
+      "GPS_LAT": 18.484823,
+      "GPS_LONG": 77.385697,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 302,
+      "GPS_LAT": 18.484133,
+      "GPS_LONG": 77.379646,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 305,
+      "GPS_LAT": 18.485571,
+      "GPS_LONG": 77.380187,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 330,
+      "GPS_LAT": 18.468582,
+      "GPS_LONG": 77.386711,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 332,
+      "GPS_LAT": 18.485934,
+      "GPS_LONG": 77.386552,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 342,
+      "GPS_LAT": 18.484137,
+      "GPS_LONG": 77.377971,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 400,
+      "GPS_LAT": 18.483452,
+      "GPS_LONG": 77.38771,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 418,
+      "GPS_LAT": 18.474544,
+      "GPS_LONG": 77.382086,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 428,
+      "GPS_LAT": 18.484267,
+      "GPS_LONG": 77.399601,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 529,
+      "GPS_LAT": 18.469302,
+      "GPS_LONG": 77.385319,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 541,
+      "GPS_LAT": 18.469904,
+      "GPS_LONG": 77.384005,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 573,
+      "GPS_LAT": 18.485537,
+      "GPS_LONG": 77.38908,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 578,
+      "GPS_LAT": 18.484693,
+      "GPS_LONG": 77.378218,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 615,
+      "GPS_LAT": 18.485292,
+      "GPS_LONG": 77.379384,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 622,
+      "GPS_LAT": 18.485546,
+      "GPS_LONG": 77.381288,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 625,
+      "GPS_LAT": 18.486793,
+      "GPS_LONG": 77.388779,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 669,
+      "GPS_LAT": 18.468867,
+      "GPS_LONG": 77.384307,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 678,
+      "GPS_LAT": 18.483647,
+      "GPS_LONG": 77.378259,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 693,
+      "GPS_LAT": 18.48599,
+      "GPS_LONG": 77.385645,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 711,
+      "GPS_LAT": 18.487067,
+      "GPS_LONG": 77.379131,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 754,
+      "GPS_LAT": 18.486451,
+      "GPS_LONG": 77.37974,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 757,
+      "GPS_LAT": 18.468973,
+      "GPS_LONG": 77.385364,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 868,
+      "GPS_LAT": 18.469814,
+      "GPS_LONG": 77.384348,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 873,
+      "GPS_LAT": 18.486571,
+      "GPS_LONG": 77.387803,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 881,
+      "GPS_LAT": 18.485738,
+      "GPS_LONG": 77.389041,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 883,
+      "GPS_LAT": 18.484201,
+      "GPS_LONG": 77.388229,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 893,
+      "GPS_LAT": 18.483454,
+      "GPS_LONG": 77.387358,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 898,
+      "GPS_LAT": 18.485082,
+      "GPS_LONG": 77.386126,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 908,
+      "GPS_LAT": 18.48704,
+      "GPS_LONG": 77.379956,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 925,
+      "GPS_LAT": 18.467967,
+      "GPS_LONG": 77.3849,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 944,
+      "GPS_LAT": 18.469492,
+      "GPS_LONG": 77.383874,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 977,
+      "GPS_LAT": 18.485973,
+      "GPS_LONG": 77.378459,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 984,
+      "GPS_LAT": 18.468846,
+      "GPS_LONG": 77.385093,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1038,
+      "GPS_LAT": 18.468898,
+      "GPS_LONG": 77.384324,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1104,
+      "GPS_LAT": 18.486588,
+      "GPS_LONG": 77.386393,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1119,
+      "GPS_LAT": 18.485133,
+      "GPS_LONG": 77.380539,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1148,
+      "GPS_LAT": 18.46942,
+      "GPS_LONG": 77.386426,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1186,
+      "GPS_LAT": 18.485448,
+      "GPS_LONG": 77.386277,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1227,
+      "GPS_LAT": 18.484641,
+      "GPS_LONG": 77.388264,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1235,
+      "GPS_LAT": 18.485144,
+      "GPS_LONG": 77.38705,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1252,
+      "GPS_LAT": 18.468194,
+      "GPS_LONG": 77.385555,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1272,
+      "GPS_LAT": 18.467946,
+      "GPS_LONG": 77.384179,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1287,
+      "GPS_LAT": 18.470418,
+      "GPS_LONG": 77.385242,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1298,
+      "GPS_LAT": 18.48681,
+      "GPS_LONG": 77.38693,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1318,
+      "GPS_LAT": 18.487175,
+      "GPS_LONG": 77.387522,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1362,
+      "GPS_LAT": 18.484971,
+      "GPS_LONG": 77.38653,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1391,
+      "GPS_LAT": 18.485393,
+      "GPS_LONG": 77.387389,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1392,
+      "GPS_LAT": 18.481752,
+      "GPS_LONG": 77.385079,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1410,
+      "GPS_LAT": 18.485457,
+      "GPS_LONG": 77.387186,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1421,
+      "GPS_LAT": 18.485156,
+      "GPS_LONG": 77.381347,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1431,
+      "GPS_LAT": 18.468622,
+      "GPS_LONG": 77.383624,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1440,
+      "GPS_LAT": 18.484743,
+      "GPS_LONG": 77.386527,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1461,
+      "GPS_LAT": 18.484321,
+      "GPS_LONG": 77.380035,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1515,
+      "GPS_LAT": 18.486079,
+      "GPS_LONG": 77.387867,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1540,
+      "GPS_LAT": 18.486387,
+      "GPS_LONG": 77.386339,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1545,
+      "GPS_LAT": 18.486623,
+      "GPS_LONG": 77.388828,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1609,
+      "GPS_LAT": 18.470009,
+      "GPS_LONG": 77.386579,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1617,
+      "GPS_LAT": 18.487092,
+      "GPS_LONG": 77.387026,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1637,
+      "GPS_LAT": 18.488518,
+      "GPS_LONG": 77.365744,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1659,
+      "GPS_LAT": 18.486936,
+      "GPS_LONG": 77.380365,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1678,
+      "GPS_LAT": 18.469746,
+      "GPS_LONG": 77.384404,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1725,
+      "GPS_LAT": 18.472191,
+      "GPS_LONG": 77.385281,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1765,
+      "GPS_LAT": 18.485147,
+      "GPS_LONG": 77.379713,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1767,
+      "GPS_LAT": 18.484785,
+      "GPS_LONG": 77.388833,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1782,
+      "GPS_LAT": 18.487229,
+      "GPS_LONG": 77.379777,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1797,
+      "GPS_LAT": 18.467808,
+      "GPS_LONG": 77.385054,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1849,
+      "GPS_LAT": 18.48645,
+      "GPS_LONG": 77.378432,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1861,
+      "GPS_LAT": 18.478883,
+      "GPS_LONG": 77.408721,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1899,
+      "GPS_LAT": 18.486521,
+      "GPS_LONG": 77.387414,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1947,
+      "GPS_LAT": 18.486343,
+      "GPS_LONG": 77.380153,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1964,
+      "GPS_LAT": 18.475593,
+      "GPS_LONG": 77.377986,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1988,
+      "GPS_LAT": 18.483815,
+      "GPS_LONG": 77.378655,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1995,
+      "GPS_LAT": 18.483641,
+      "GPS_LONG": 77.388082,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    },
+    {
+      "ID_Uzorka": 1997,
+      "GPS_LAT": 18.485723,
+      "GPS_LONG": 77.388155,
+      "akcije": [
+        {
+          "tip": "NAVIGACIJA"
+        },
+        {
+          "tip": "SONDIRANJE"
+        },
+        {
+          "tip": "SLANJE_PODATAKA"
+        }
+      ]
+    }
+  ]
+}
