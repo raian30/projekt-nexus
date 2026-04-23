@@ -74,7 +74,7 @@ def generiraj_moje_podatke():
 
     # --- 5. SPREMANJE PODATAKA ---
     # Spremamo u istu mapu gdje se nalazi i ova skripta
-    folder_name = "moji_mars_podaci"
+    folder_name = "data"
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
 
