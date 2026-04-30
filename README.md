@@ -27,21 +27,21 @@ Podaci koji nisu zadovoljili ove uvjete označeni su kao anomalni i premješteni
 Za analizu geografskih podataka korišteni su grafovi koji pokazuju razne odnose među parametrima, kao i geografske karte koje vizualiziraju lokacije bušenja.
 
 ### Generirani grafovi:
-1. **Graf1 - Temperatura vs. Postotak vode**: Ovaj graf prikazuje odnos između temperature tla i postotka vode s označenim točkama koje pokazuju prisutnost metana.
+1. **Graf 1 - Temperatura vs. Postotak vode**: Ovaj graf prikazuje odnos između temperature tla i postotka vode s označenim točkama koje pokazuju prisutnost metana.
    ![Graf 1](assets/graf1_temperatura_voda.png "Graf 1")
    
-2. **Graf2 - Karta dubine bušenja**: Geografska karta na kojoj je prikazana dubina bušenja prema GPS koordinatama.
+2. **Graf 2 - Karta dubine bušenja**: Geografska karta na kojoj je prikazana dubina bušenja prema GPS koordinatama.
    ![Graf 2](assets/graf2_karta_dubine.png "Graf 2")
 
-3. **Graf3 - Karta metana**: Ovaj graf prikazuje geografsku rasprostranjenost metana, s crvenim označavanjem pozitivnih očitanja metana, a plavim negativnih.
+3. **Graf 3 - Karta metana**: Ovaj graf prikazuje geografsku rasprostranjenost metana, s crvenim označavanjem pozitivnih očitanja metana, a plavim negativnih.
    - **Ime datoteke:** `graf3_metan.png`
    ![Graf 3](assets/graf3_metan.png "Graf 3")
 
-4. **Graf4 - Karta kandidata**: Geografska karta na kojoj su označeni kandidati za bušenje (lokacije s metanom i organskim molekulama), koji su označeni velikim crvenim zvjezdicama.
+4. **Graf 4 - Karta kandidata**: Geografska karta na kojoj su označeni kandidati za bušenje (lokacije s metanom i organskim molekulama), koji su označeni velikim crvenim zvjezdicama.
    - **Ime datoteke:** `karta_kandidata.png`
    ![karta_kandidata](assets/karta_kandidata.png "karta_kandidata")
 
-5. **Graf5 - Misijska karta Jezero**: Satelitska snimka kratera Jezero sa superponiranim podacima o GPS koordinatama, čime se omogućuje vizualna orijentacija za misiju.
+5. **Graf 5 - Misijska karta Jezero**: Satelitska snimka kratera Jezero sa superponiranim podacima o GPS koordinatama, čime se omogućuje vizualna orijentacija za misiju.
    - **Ime datoteke:** `misijska_karta_jezero.jpg`
    ![Graf 5](assets/misijska_karta_jezero.jpg "Graf 5")
 
