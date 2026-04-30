@@ -35,7 +35,7 @@ Za analizu geografskih podataka korišteni su grafovi koji pokazuju razne odnose
 
 3. **Graf3 - Karta metana**: Ovaj graf prikazuje geografsku rasprostranjenost metana, s crvenim označavanjem pozitivnih očitanja metana, a plavim negativnih.
    - **Ime datoteke:** `graf3_metan.png`
-   ![Graf 3](assets/graf3_metan.png.png "Graf 3")
+   ![Graf 3](assets/graf3_metan.png "Graf 3")
 
 4. **Graf4 - Karta kandidata**: Geografska karta na kojoj su označeni kandidati za bušenje (lokacije s metanom i organskim molekulama), koji su označeni velikim crvenim zvjezdicama.
    - **Ime datoteke:** `karta_kandidata.png`
