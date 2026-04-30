@@ -1,57 +1,165 @@
-# Misija Nexus - Projekt Analize Marsovih Podataka
+# Misija Nexus – Tehnička dokumentacija projekta
 
-## Izvršni sažetak
+## Izvršni sažetak (Executive Summary)
 
-Misija Nexus ima za cilj otkrivanje optimalnih lokacija za bušenje na Marsu, fokusirajući se na krater Jezero. Korištenjem podataka o temperaturi tla, pH vrijednostima, postotku vode i prisutnosti metana, razvili smo metodologiju koja omogućuje prepoznavanje prometnih točaka za buduće misije. Ovaj projekt koristi Python skripte za obradu podataka i generiranje vizualizacija, te automatski generira JSON naloge za bušenje temeljem analiziranih podataka. Rezultati analize ključni su za daljnji razvoj autonomnih sustava za ispitivanje tla Marsa.
+Projekt *Misija Nexus* predstavlja integrirani analitički sustav za identifikaciju optimalnih lokacija za bušenje unutar kratera Jezero na Marsu. Primarni cilj sustava je obrada i interpretacija telemetrijskih podataka prikupljenih putem senzora na površini Marsa, s naglaskom na detekciju uvjeta koji potencijalno ukazuju na prisutnost vode i organskih spojeva.
+
+Ulazni podaci dolaze iz dva odvojena izvora: geoprostornih koordinata i senzorskih očitanja. Korištenjem Python ekosustava (Pandas, Matplotlib, Seaborn), razvijen je pipeline koji:
+
+* konsolidira podatke u jedinstveni analitički model,
+* uklanja anomalije uzrokovane senzorskim šumom,
+* generira višeslojne vizualizacije za geoprostornu interpretaciju,
+* automatski generira JSON naloge za autonomne robotske sustave.
+
+Konačni rezultat sustava je strukturirani skup “kandidata za bušenje” koji zadovoljavaju stroge znanstvene kriterije i spremni su za daljnju operativnu obradu putem mrežnog uplinka.
+
+---
+
+## Arhitektura repozitorija
+
+Projekt je organiziran prema standardiziranoj hijerarhiji kako bi se omogućila jasna separacija podataka, koda i rezultata:
+
+* `data/`
+  Sadrži izvorne CSV datoteke (`mars_lokacije.csv`, `mars_uzorci.csv`).
+
+* `src/`
+  Python skripte za obradu podataka, vizualizaciju i generiranje JSON paketa.
+
+* `assets/`
+  Generirani grafovi i satelitske snimke korištene u vizualizaciji.
+
+* `README.md`
+  Glavna dokumentacija projekta.
+
+Ovakva struktura omogućuje skalabilnost, lakšu nadogradnju i jasnu podjelu odgovornosti unutar sustava.
+
+---
 
 ## Metodologija obrade podataka (Data Wrangling)
 
-Podaci korišteni u ovom projektu dolaze iz dviju CSV datoteka: `mars_lokacije.csv` i `mars_uzorci.csv`, koje sadrže informacije o Marsovim lokacijama, uzorcima tla i senzorima. 
+### Učitavanje i standardizacija podataka
 
-### Koraci obrade podataka:
-1. **Učitavanje podataka:** Podaci su učitani koristeći Pandas, uzimajući u obzir separator (točka-zarez) i decimalnu točku (zarez).
-2. **Spajanje podataka:** Obje datoteke spojene su prema zajedničkom identifikatoru (`ID_Uzorka`), čime je stvoren jedan objedinjeni skup podataka.
-3. **Filtriranje anomalija:** Korištenjem logičkih uvjeta, uklonjeni su svi podaci koji sadrže nelogične ili ekstremne vrijednosti za temperaturu, pH, postotak vode i druge važne parametre.
-4. **Podjela na čiste i anomalne podatke:** Čisti podaci su spremljeni u zasebnu datoteku (`cisti_podaci.csv`), dok su anomalije spremljene u drugu datoteku (`anomalije.csv`).
+Podaci su učitani korištenjem Pandas biblioteke uz posebnu pažnju na formatiranje:
 
-### Filtriranje uvjeta:
-Podaci su filtrirani prema sljedećim uvjetima:
-- Temperatura tla između -100°C i 40°C
-- pH vrijednost između 0 i 14
-- Postotak vode između 0% i 100%
+* separator: `;`
+* decimalni zapis: `,`
 
-Podaci koji nisu zadovoljili ove uvjete označeni su kao anomalni i premješteni u zasebnu tablicu.
+Ova prilagodba je ključna jer pogrešna interpretacija formata može dovesti do krivih tipova podataka i neispravnih analiza.
+
+### Spajanje datasetova
+
+Podaci iz dvije datoteke spojeni su korištenjem relacijskog modela preko atributa `ID_Uzorka`. Time je formiran jedinstveni DataFrame koji objedinjuje:
+
+* prostorne podatke (GPS)
+* fizikalno-kemijske parametre tla
+
+### Detekcija i uklanjanje anomalija
+
+Zbog ekstremnih uvjeta na Marsu, senzori mogu generirati nelogične vrijednosti. Kako bi se osigurala analitička pouzdanost, implementirani su strogi validacijski uvjeti:
+
+* temperatura tla ∈ [-100, 40]
+* pH vrijednost ∈ [0, 14]
+* udio vode ∈ [0, 100]
+
+Zapisi koji ne zadovoljavaju ove uvjete klasificirani su kao anomalije i izdvojeni u zasebnu datoteku. Ovaj korak značajno smanjuje utjecaj šuma i povećava kvalitetu modela.
+
+### Razdvajanje podataka
+
+Rezultat obrade:
+
+* `cisti_podaci.csv` → validirani podaci za analizu
+* `anomalije.csv` → zapis grešaka za dodatnu inspekciju
+
+---
 
 ## Geoprostorna analiza i vizualizacija
 
-Za analizu geografskih podataka korišteni su grafovi koji pokazuju razne odnose među parametrima, kao i geografske karte koje vizualiziraju lokacije bušenja.
+Vizualizacija predstavlja ključni alat za interpretaciju podataka i donošenje odluka.
 
-### Generirani grafovi:
-1. **Graf 1 - Temperatura vs. Postotak vode**: Ovaj graf prikazuje odnos između temperature tla i postotka vode s označenim točkama koje pokazuju prisutnost metana.
-   ![Graf 1](assets/graf1_temperatura_voda.png "Graf 1")
-   
-2. **Graf 2 - Karta dubine bušenja**: Geografska karta na kojoj je prikazana dubina bušenja prema GPS koordinatama.
-   ![Graf 2](assets/graf2_karta_dubine.png "Graf 2")
+### Graf 1 – Korelacija temperature i vode
 
-3. **Graf 3 - Karta metana**: Ovaj graf prikazuje geografsku rasprostranjenost metana, s crvenim označavanjem pozitivnih očitanja metana, a plavim negativnih.
-   - **Ime datoteke:** `graf3_metan.png`
-   ![Graf 3](assets/graf3_metan.png "Graf 3")
+![Graf 1](assets/graf1_temperatura_voda.png)
 
-4. **Graf 4 - Karta kandidata**: Geografska karta na kojoj su označeni kandidati za bušenje (lokacije s metanom i organskim molekulama), koji su označeni velikim crvenim zvjezdicama.
-   - **Ime datoteke:** `karta_kandidata.png`
-   ![karta_kandidata](assets/karta_kandidata.png "karta_kandidata")
+Prikazuje odnos između temperature tla i postotka vode. Boja označava prisutnost metana. Uočava se da se pozitivna očitanja metana češće pojavljuju u određenim temperaturnim rasponima.
 
-5. **Graf 5 - Misijska karta Jezero**: Satelitska snimka kratera Jezero sa superponiranim podacima o GPS koordinatama, čime se omogućuje vizualna orijentacija za misiju.
-   - **Ime datoteke:** `misijska_karta_jezero.jpg`
-   ![Graf 5](assets/misijska_karta_jezero.jpg "Graf 5")
+---
 
-Za generiranje svih ovih vizualizacija korišteni su `matplotlib` i `seaborn` biblioteke.
+### Graf 2 – Dubina bušenja (geoprostorna distribucija)
+
+![Graf 2](assets/graf2_karta_dubine.png)
+
+Boja točaka predstavlja dubinu bušenja. Ova vizualizacija omogućuje identifikaciju područja gdje su potrebne dublje analize.
+
+---
+
+### Graf 3 – Distribucija metana
+
+![Graf 3](assets/graf3_metan.png)
+
+Jasna klasifikacija:
+
+* crveno → pozitivno
+* plavo → negativno
+
+Ovaj graf služi kao primarni indikator potencijalnih bioloških aktivnosti.
+
+---
+
+### Graf 4 – Kandidati za bušenje
+
+![Graf 4](assets/karta_kandidata.png)
+
+Kandidati su definirani kao lokacije koje zadovoljavaju:
+
+* prisutnost metana
+* prisutnost organskih molekula
+
+Označeni su velikim crvenim zvjezdicama radi vizualne jasnoće.
+
+---
+
+### Graf 5 – Misijska karta (satelitski overlay)
+
+![Graf 5](assets/misijska_karta_jezero.jpg)
+
+Ovaj graf uvodi napredni koncept **extent mapiranja**.
+
+#### Tehničko objašnjenje:
+
+Funkcija `imshow()` zahtijeva definiranje granica slike u koordinatnom sustavu grafa. Te granice (`extent`) određuju:
+
+```
+[X_min, X_max, Y_min, Y_max]
+```
+
+Izračunavanjem minimuma i maksimuma GPS koordinata omogućeno je precizno “lijepljenje” satelitske snimke na stvarne podatke.
+
+Bez ovog koraka:
+
+* podaci bi bili pogrešno pozicionirani
+* karta bi bila neupotrebljiva za navigaciju
+
+Ova metoda omogućuje realističan prikaz terena i ključna je za operativno planiranje.
+
+---
+
+## Identifikacija kandidata
+
+Kandidati za bušenje definirani su pomoću logičkog filtra:
+
+* `Metan_Senzor == "Pozitivno"`
+* `Organske_Molekule == "Da"`
+
+Ova kombinacija predstavlja najjači indikator potencijalne biološke aktivnosti.
+
+---
 
 ## Komunikacijski protokol (JSON Uplink)
 
-Nakon vizualizacije podataka i pronalaska kandidata za bušenje, sljedeći korak je slanje naloga za bušenje robotskim sustavima putem JSON formata. Svaka od odabranih lokacija dobiva tri vrste akcija: **NAVIGACIJA**, **SONDIRANJE** i **SLANJE_PODATAKA**.
+Nakon identifikacije kandidata, generira se JSON paket koji služi kao ulaz za robotski sustav.
 
-### Struktura JSON paketa:
+### Primjer strukture:
+
 ```json
 {
   "kandidati": [
@@ -64,7 +172,13 @@ Nakon vizualizacije podataka i pronalaska kandidata za bušenje, sljedeći korak
         { "tip": "SONDIRANJE" },
         { "tip": "SLANJE_PODATAKA" }
       ]
-    },
-    ...
+    }
   ]
 }
+```
+
+## Zaključak
+
+Misija Nexus demonstrira kako se kombinacijom obrade podataka, vizualizacije i automatizacije može razviti robustan sustav za podršku istraživačkim misijama. Sustav je dizajniran modularno i skalabilno, što omogućuje njegovu primjenu i u drugim analitičkim scenarijima.
+
+Korištenjem standardiziranih inženjerskih praksi i jasne dokumentacije, projekt omogućuje jednostavno razumijevanje, replikaciju i daljnji razvoj od strane drugih stručnjaka.
