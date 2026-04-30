@@ -177,6 +177,54 @@ Nakon identifikacije kandidata, generira se JSON paket koji služi kao ulaz za r
 }
 ```
 
+### Logika generiranja
+
+Umjesto ručnog definiranja, koristi se iteracija kroz DataFrame (`iterrows()`), čime se:
+
+* automatizira proces
+* smanjuje mogućnost greške
+* omogućuje skalabilnost
+
+Svaki kandidat dobiva tri standardizirane akcije:
+
+1. NAVIGACIJA
+2. SONDIRANJE
+3. SLANJE_PODATAKA
+
+---
+
+## Inženjerski dnevnik (Troubleshooting Log)
+
+### Problem 1: Neispravno učitavanje CSV datoteka
+
+**Uzrok:** Pogrešan separator i decimalni znak
+**Simptom:** Krivi tipovi podataka (string umjesto float)
+**Rješenje:** Definiranje `sep=";"` i `decimal=","` prilikom učitavanja
+
+---
+
+### Problem 2: Neispravno spajanje tablica
+
+**Uzrok:** Nepodudarni tipovi stupca `ID_Uzorka`
+**Simptom:** Prazni ili nepotpuni merge rezultat
+**Rješenje:** Eksplicitno osiguravanje istog tipa podataka prije spajanja
+
+---
+
+### Problem 3: Nedostatak legendi na grafovima
+
+**Uzrok:** Korištenje `plt.scatter()` bez `label` parametra
+**Rješenje:** Dodavanje `label` i `plt.legend()` za interpretabilnost
+
+---
+
+### Problem 4: Pogrešno pozicionirana satelitska slika
+
+**Uzrok:** Neispravno definiran `extent`
+**Rješenje:** Izračun granica iz stvarnih GPS podataka
+
+---
+
 ## Zaključak
 
 Misija Nexus demonstrira kako se kombinacijom obrade podataka, vizualizacije i automatizacije može razviti robustan sustav za podršku istraživačkim misijama. Sustav je dizajniran modularno i skalabilno, što omogućuje njegovu primjenu i u drugim analitičkim scenarijima.
