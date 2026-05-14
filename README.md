@@ -230,3 +230,11 @@ Svaki kandidat dobiva tri standardizirane akcije:
 Misija Nexus demonstrira kako se kombinacijom obrade podataka, vizualizacije i automatizacije može razviti robustan sustav za podršku istraživačkim misijama. Sustav je dizajniran modularno i skalabilno, što omogućuje njegovu primjenu i u drugim analitičkim scenarijima.
 
 Korištenjem standardiziranih inženjerskih praksi i jasne dokumentacije, projekt omogućuje jednostavno razumijevanje, replikaciju i daljnji razvoj od strane drugih stručnjaka.
+
+## Dodatna analiza
+
+Izračunata je prosječna temperatura tla za lokacije označene
+kao potencijalni kandidati za daljnje bušenje.
+
+Primjer rezultata:
+Prosječna temperatura kandidata: -12.47 °C
