@@ -139,5 +139,5 @@ for _, red in df_kandidati.iterrows():
 
 podatci = {"kandidati": lista}
 
-with open("nexus_payload.json", "w", encoding="utf-8") as f:
+with open("assets/nexus_payload.json", "w", encoding="utf-8") as f:
     json.dump(podatci, f, ensure_ascii=False, indent=2)
