@@ -17,8 +17,8 @@ uvjet = (
 df_cisto = df[uvjet]
 df_anomalije = df[~uvjet]
 
-df_cisto.to_csv("cisti_podaci.csv", index=False)
-df_anomalije.to_csv("anomalije.csv", index=False)
+df_cisto.to_csv("assets/cisti_podaci.csv", index=False)
+df_anomalije.to_csv("assets/anomalije.csv", index=False)
 
 sns.set_theme(style="whitegrid")
 
@@ -30,7 +30,7 @@ sns.scatterplot(
     hue="Metan_Senzor"
 )
 plt.legend(title="Metan senzor")
-plt.savefig("graf1_temperatura_voda.png", dpi=200)
+plt.savefig("assets/graf1_temperatura_voda.png", dpi=200)
 plt.close()
 
 plt.figure(figsize=(10, 6))
@@ -45,7 +45,7 @@ plt.colorbar(label="Dubina bušenja (cm)")
 plt.title("Karta dubine bušenja")
 plt.xlabel("Longitude")
 plt.ylabel("Latitude")
-plt.savefig("graf2_karta_dubine.png", dpi=200)
+plt.savefig("assets/graf2_karta_dubine.png", dpi=200)
 plt.close()
 
 plt.figure(figsize=(10, 6))
@@ -60,7 +60,7 @@ plt.legend(title="Metan")
 plt.xlabel("Longitude")
 plt.ylabel("Latitude")
 
-plt.savefig("graf3_metan.png", dpi=200)
+plt.savefig("assets/graf3_metan.png", dpi=200)
 plt.close()
 
 plt.figure(figsize=(10, 6))
@@ -90,7 +90,7 @@ plt.scatter(
 )
 
 plt.legend()
-plt.savefig("karta_kandidata.png", dpi=200)
+plt.savefig("assets/karta_kandidata.png", dpi=200)
 plt.close()
 
 plt.figure(figsize=(12, 8))
@@ -102,7 +102,7 @@ granice = [
     df_cisto["GPS_LAT"].max()
 ]
 
-slika = plt.imread("jezero_crater_satellite_map.jpg")
+slika = plt.imread("assets/jezero_crater_satellite_map.jpg")
 plt.imshow(slika, extent=granice, aspect="auto", alpha=0.7)
 
 sns.scatterplot(data=df_cisto, x="GPS_LONG", y="GPS_LAT", alpha=0.3, label="Uzorci")
@@ -121,7 +121,7 @@ plt.xlabel("Longitude")
 plt.ylabel("Latitude")
 plt.title("Misijska karta - Jezero krater")
 
-plt.savefig("misijska_karta_jezero.jpg", dpi=200)
+plt.savefig("assets/misijska_karta_jezero.jpg", dpi=200)
 plt.close()
 
 lista = []
